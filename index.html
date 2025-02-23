@@ -3,142 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avinash Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Avinash portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-primary-light d-flex flex-column">
-    <!-- NavBar -->
-   <div class="text-white bg-primary" id="home">
-    <div class="row align-items-center">
-        <div class="col-3 text-center">
-            <a href="#home" class="text-decoration-none"><h1 class="icon">Portfolio</h1></a>
+<body>
+    <div class="nav" id="home">
+        <div class="nav-left">
+            <h1 style="font-size: 60px;">Portfolio</h1>
         </div>
-        <div class="col-7 align-items-center">
-            <div class="d-flex gap-5 justify-content-center fs-5">
-                <p><a href="#home" class="text-decoration-none text-white">Home</a></p>
-                <p><a href="#skills" class="text-decoration-none text-white">Skills</a></p>
-                <p><a href="#projects" class="text-decoration-none text-white">Projects</a></p>
-                <p><a href="#contact" class="text-decoration-none text-white">Contact me</a></p>
-            </div>
+        <div class="nav-mid">
+            <a href="#home" style="text-decoration: none;"><span>Home</span></a>
+            <a href="#skills" style="text-decoration: none;"><span>Skills</span></a>
+            <a href="#projects" style="text-decoration: none; "><span>Projects</span></a>
+            <a href="#contact" style="text-decoration: none;"><span>Contact me</span></a>
         </div>
-        <div class="col-2 button">
-            <a href="#contact" class="text-decoration-none"><button class="btn btn-outline-light">Contact me</button></a>
+        <div class="nav-right">
+            <a href="#contact" style="text-decoration: none;"><span>Contact me</span></a>
         </div>
    </div>
+   <div class="container">
+        <div class="left">
+            <img src="./assets/Screenshot 2021-03-21 182925.jpg" alt="">
+        </div>
+        <div class="right">
+            <h1>SHIVASAI AVINASH BATHALA</h1>
+            <span>Java Full Stack Trainee</span>
+            <span>Aspiring Technology Professional | Java Full Stack Trainee @ Codegnan Destination <br> Post Graduate (Master of Technology) in Power Electronics and Electrical Drives</span>
+            <span>I am a Java Full Stack Trainee currently expanding my knowledge in frontend and backend development. <br>At Codegnan, I am learning Java, HTML, CSS, and JavaScript, and gaining hands-on experience with Spring Framework and RESTful web services. <br>I am also developing my skills in SQL for effective database management.</span>
+            <div class="download">
+                <a class="btns" style="text-decoration: none;"><span>My resume</span></a>
+                <a class="btns" style="text-decoration: none;"><span>Contact me</span></a>
+            </div>
+        </div> 
    </div>
-   <!-- Main part -->
-    <div>
-        <div class="d-flex gap-5 mt-5 ms-5">
-            <div>
-                    <img src="./assets/Screenshot 2021-03-21 182925.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="details mt-5">
-                <h1 class="text-primary-emphasis">B. Shivasai Avinash</h1>
-                <h2 class="text-primary">Java Full Stack Trainee</h2>
-                <p>Aspiring Technology Professional | Java Full Stack Trainee @ Codegnan Destination <br> Post Graduate (Master of Technology) in Power Electronics and Electrical Drives</p>
-            
-                <p>I am a Java Full Stack Trainee currently expanding my knowledge in frontend and backend development. <br>At Codegnan, I am learning Java, HTML, CSS, and JavaScript, and gaining hands-on experience with Spring Framework and RESTful web services. <br>I am also developing my skills in SQL for effective database management.</p>
-                <p>I hold a Master's degree in Power Electronics and a Bachelor's degree in Electrical and Electronics Engineering. My previous role as a Junior Software Engineer involved developing user-friendly web applications using React.js and collaborating with teams to deliver quality projects.</p>
-                <p>I am passionate about continuous learning and eager to connect with professionals in the tech industry to explore opportunities for growth and collaboration.</p>
-                <div class="button gap-5">
-                    <button class="btn btn-outline-primary"><a href="./assets/avinash_codegnan.pdf" class="text-decoration-none" download="Avinash_resume">Download CV</a></button>
-                    <a href="#contact" class="text-decoration-none"><button class="btn btn-outline-primary">Contact me</button></a>  
-                </div>
-            </div>
+   <div class="heading" id="skills">
+    <h1>Skills</h1>
+   </div>
+<div class="container-2">
+   <div class="skill-container">
+    <div class="skill">
+        <div class="skill-name">HTML</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 90%;">90%</div>
         </div>
     </div>
-<!-- Skills -->
- <div class="d-flex align-items-center justify-content-center mt-5 text-primary-emphasis"><h1 id="skills">Skills</h1></div>
- <div class=" d-flex flex-column align-items-center justify-content-center gap-5 mb-5">
-    <div class="d-flex gap-5">
-        <label for="">HTML</label>
-        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar" style="width: 75%"></div>
-          </div>
- </div>
- <div class="d-flex gap-5">
-    <label for="">CSS</label>
-    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar" style="width: 85%"></div>
-      </div>
-</div>
-<div class="d-flex gap-5">
-    <label for="">JAVA</label>
-    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar" style="width: 50%"></div>
-      </div>
-</div>
-<div class="d-flex gap-5">
-    <label for="">mySQL</label>
-    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar" style="width: 90%"></div>
-      </div>
-</div>
- </div>
- <!-- Projects -->
-<div class="d-flex justify-content-center align-items-center"><h1 id="projects" class="text-primary-emphasis">Projects</h1></div>
-    <div class="container d-flex flex-column justify-content-center align-items-center gap-3 mt-5">
-        <div class="items1 d-flex justify-content-center align-items-center gap-3">
-          <div><img src="./assets/Screenshot 2025-02-18 164330.png" alt=""></div>
-          <div><img src="./assets/Screenshot 2025-02-18 164148.png" alt=""></div>
-          <div><img src="./assets/project_2.svg" alt="" class=></div>
+
+    <div class="skill">
+        <div class="skill-name">CSS</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 80%;">80%</div>
         </div>
-        <div class="items2 d-flex justify-content-center align-items-center gap-3">
-            <div><img src="./assets/Screenshot 2025-02-18 162508.png" alt=""></div>
-            <div><img src="./assets/Screenshot 2025-02-18 164215.png" alt=""></div>
-            <div><img src="./assets/Screenshot 2025-02-18 164251.png" alt=""></div>
-          </div>
     </div>
-<!-- Contact me -->
-<div class="d-flex justify-content-center align-items-center mt-5"><h1 id="contact" class="text-primary-emphasis">contact</h1></div>
-    <div class="contact d-flex justify-content-center align-items-center">
-        <div>
-            <h1 class="text-primary-emphasis">Let's <br>
-            Talk </h1>
+
+    <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
         </div>
-        <div class="form">
-            <div class="mb-3t">
-                <label for="exampleFormControlInput1" class="form-label text-primary-emphasis">Email:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your mail">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label text-primary-emphasis">Message:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your Message" rows="3"></textarea>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mt-2 mb-3">Message me</button>
-                  </div>
-              </div>
+    </div>
+    <div class="skill">
+        <div class="skill-name">My SQL</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;">85%</div>
         </div>
+    </div>
+    <div class="skill">
+        <div class="skill-name">React JS</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 75%;">75%</div>
+        </div>
+    </div>
+</div>
+   </div>
+ <div class="heading" id="projects">
+    <h1>Projects</h1>
+   </div>
+<div class="grid">
+    <div class="grid-container">
+        <div class="grid-item"><img src="./assets/Screenshot 2025-02-18 162508.png" alt="Image 1"></div>
+        <div class="grid-item"><img src="./assets/Screenshot 2025-02-18 164148.png" alt="Image 2"></div>
+        <div class="grid-item"><img src="./assets/Screenshot 2025-02-18 162508.png" alt="Image 3"></div>
+        <div class="grid-item"><img src="./assets/Screenshot 2025-02-18 164215.png" alt="Image 4"></div>
+        <div class="grid-item"><img src="./assets/Screenshot 2025-02-18 164251.png" alt="Image 5"></div>
+        <div class="grid-item"><img src="./assets/project_2.svg" alt="Image 6"></div>
+    </div>
+</div>
+<div class="heading" id="contact">
+    <h1>Contact me</h1>
+</div>
+    <div class="contactme">
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    
     </div>
     <div class="arrow">
         <a href="#home"><img src="./assets/arrow-up-circle-fill.svg" alt="" width="40px"></a>
     </div>
-<!-- Footer -->
- <div class="bg-primary footer d-flex justify-content-center align-items-center gap-5">
-   <div class="icons">
-   <a href="https://www.linkedin.com/in/shivasai-avinash-bathala-b6bb88316/" target="_blank">
-    <img src="./assets/linkedin.svg" alt="" width="30px">
-   </a>
-   </div>
-   <div class="icons">
-    <a href="https://github.com/bssavinash202?tab=repositories" target="_blank">
-        <img src="./assets/github.svg" alt="" width="30px">
-    </a>
-   </div>
-   <div class="icons">
-    <a href="mailto:bshivasaiavinash@gmail.com" target="_blank">
-        <img src="./assets/envelope.svg" alt="" width="30px">
-    </a>
-   </div>
-   <div class="icons">
-   <a href="https://www.instagram.com/the_prince.avinash/?hl=en" target="_blank">
-    <img src="./assets/instagram.svg" alt="" width="30px" >
-   </a>
-   </div>
- </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <div class="footer2">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/shivasai-avinash-bathala-b6bb88316/" target="_blank">
+             <img src="./assets/linkedin.svg" alt="" width="30px">
+            </a>
+            </div>
+            <div class="icons">
+             <a href="https://github.com/bssavinash202?tab=repositories" target="_blank">
+                 <img src="./assets/github.svg" alt="" width="30px">
+             </a>
+            </div>
+            <div class="icons">
+             <a href="mailto:bshivasaiavinash@gmail.com" target="_blank">
+                 <img src="./assets/envelope.svg" alt="" width="30px">
+             </a>
+            </div>
+            <div class="icons">
+            <a href="https://www.instagram.com/the_prince.avinash/?hl=en" target="_blank">
+             <img src="./assets/instagram.svg" alt="" width="30px" >
+            </a>
+            </div>
+    </div>
+<div class="footer">
+   
+</div>
 </body>
 </html>
